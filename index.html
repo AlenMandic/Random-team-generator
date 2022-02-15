@@ -2,15 +2,32 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <title>Generator</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <button id ="generator">Generate teams!</button>
-         <p id = "roster"></p>
-         <p id = "one"></p>
-         <p id = "two"></p>
-         <p id = "three"></p>
+    <h2>Fill out the player slots below and generate 2 random teams! </h2>
+    <div class="players" style = "width: 400px;
+    margin-bottom: 40px;
+    margin-top: 40px;">
+    <input type="text" id="name-one" name="name-one" required placeholder="Player one">
+    <input type="text" id="name-two" name="name-two" required placeholder="Player two">
+    <input type="text" id="name-three" name="name-three" required placeholder="Player three">
+    <input type="text" id="name-four" name="name-four" required placeholder="Player four">
+    <input type="text" id="name-five" name="name-five" required placeholder="Player five">
+    <input type="text" id="name-six" name="name-six" required placeholder="Player six">
+    <input type="text" id="name-seven" name="name-seven" required placeholder="Player seven">
+    <input type="text" id="name-eight" name="name-eight" required placeholder="Player eight">
+    <input type="text" id="name-nine" name="name-nine" required placeholder="Player nine">
+    <input type="text" id="name-ten" name="name-ten" required placeholder="Player ten">
+    </div>
+    <button id ="generator">Click to generate!</button>
+         <p id = "roster" style = "padding-bottom: 30px;
+    font-size: 19px;
+    font-family: sans-serif;"></p>
+         <h3 id = "one"></h3>
+         <h3 id = "two"></h3>
     <script src="main.js"></script>
   </body>
 </html>
