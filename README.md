@@ -1,5 +1,5 @@
 # Random-team-generator
-A program i made which me and my friends use to help use decide teams for football
+Generate 2 randoms teams easily from your own inputs!
 
 # Link to live demo:
 https://codepen.io/alen1234/full/bGYqJOY
